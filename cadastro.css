@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: rgb(154, 152, 152);
+}
+
+.conteiner_principal {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(175, 166, 166);
+}
+
+.div_dos_inputs {
+    display: flex;
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.indicador_input {
+    color: white;
+    margin-left: 20px;
+}
+
+.input_valores {
+    height: 30px;
+    width: 200px;
+    background-color: gray;
+    margin-left: 20px;
+    color: white;
+}
+
+.botao_mandar {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(66, 149, 66);
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.barra_superior {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(49, 49, 102);
+    margin-bottom: 20px;
+}

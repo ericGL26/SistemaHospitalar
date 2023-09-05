@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: rgb(168, 164, 164);
+}
+
+.div_conteiner {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(168, 164, 164);
+}
+
+.div_dos_h3 {
+    height: 650px;
+    width: 500px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    flex-direction: column;
+}
+
+.h3 {
+    color: white;
+}
+
+.botao_chamar {
+    display: flex;
+    height: 40px;
+    width: 140px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_superior_barra {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(20, 20, 44);
+    margin-bottom: 20px;
+}

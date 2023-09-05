@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="triagem.css">
+    <script src="triagem.js" defer></script>
+    <title>Triagem-SGDP</title>
+</head>
+<body>
+
+    <div class="div_superior_barra"></div>
+
+    <div class="conteiner_principal">
+        <div class="div_dos_inputs">
+            <h3 class="indicador_input">Digite seu nome</h3>
+            <input id="input_nome" type="text" class="input_valores">
+
+            <h3 class="indicador_input">Digite seu peso</h3>
+            <input id="input_peso" type="text" class="input_valores">
+
+            <h3 class="indicador_input">Digite seu altura</h3>
+            <input id="input_altura" type="text" class="input_valores">
+
+            <h3 class="indicador_input">Digite seu sexo</h3>
+            <input id="input_sexo" type="text" class="input_valores">
+
+            <h3 class="indicador_input">Digite sua alergia</h3>
+            <input id="input_alergia" type="text" class="input_valores">
+
+
+            <h3 class="indicador_input">Digite sua idade</h3>
+            <input id="input_idade" type="text" class="input_valores">
+
+            <h3 class="indicador_input">Escolha o tipo do problema</h3>
+        
+            
+    <form class="formulario_escolha_a_dor">
+        <!-- Use o elemento input com o atributo type="checkbox" dentro de uma label para cada sintoma -->
+        <label><input type="checkbox" name="sintoma" value="Dor no peito"> Dor no peito</label><br>
+        <label><input type="checkbox" name="sintoma" value="Falta de ar"> Falta de ar</label><br>
+        <label><input type="checkbox" name="sintoma" value="Dor abdominal"> Dor abdominal</label><br>
+        <label><input type="checkbox" name="sintoma" value="Dor no peito"> Dor no peito</label><br>
+<label><input type="checkbox" name="sintoma" value="Falta de ar"> Falta de ar</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor abdominal"> Dor abdominal</label><br>
+<label><input type="checkbox" name="sintoma" value="Tosse persistente"> Tosse persistente</label><br>
+<label><input type="checkbox" name="sintoma" value="Febre alta"> Febre alta</label><br>
+<label><input type="checkbox" name="sintoma" value="Fadiga"> Fadiga</label><br>
+<label><input type="checkbox" name="sintoma" value="Dores musculares"> Dores musculares</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor de cabeca intensa"> Dor de cabeça intensa</label><br>
+<label><input type="checkbox" name="sintoma" value="Tontura"> Tontura</label><br>
+<label><input type="checkbox" name="sintoma" value="Vomitos frequentes"> Vômitos frequentes</label><br>
+<label><input type="checkbox" name="sintoma" value="Diarreia persistente"> Diarreia persistente</label><br>
+<label><input type="checkbox" name="sintoma" value="Hemorragia nasal"> Hemorragia nasal</label><br>
+<label><input type="checkbox" name="sintoma" value="Sensacao de desmaio"> Sensação de desmaio</label><br>
+<label><input type="checkbox" name="sintoma" value="Dificuldade para engolir"> Dificuldade para engolir</label><br>
+<label><input type="checkbox" name="sintoma" value="Inchaco nas pernas"> Inchaço nas pernas</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor na garganta"> Dor na garganta</label><br>
+<label><input type="checkbox" name="sintoma" value="Perda de peso inexplicada"> Perda de peso inexplicada</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento nas gengivas"> Sangramento nas gengivas</label><br>
+<label><input type="checkbox" name="sintoma" value="Visao turva"> Visão turva</label><br>
+<label><input type="checkbox" name="sintoma" value="Falta de apetite"> Falta de apetite</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor nas costas"> Dor nas costas</label><br>
+<label><input type="checkbox" name="sintoma" value="Sensacao de queimacao ao urinar"> Sensação de queimação ao urinar</label><br>
+<label><input type="checkbox" name="sintoma" value="Febre baixa"> Febre baixa</label><br>
+<label><input type="checkbox" name="sintoma" value="Coceira intensa na pele"> Coceira intensa na pele</label><br>
+<label><input type="checkbox" name="sintoma" value="Feridas que nao cicatrizam"> Feridas que não cicatrizam</label><br>
+<label><input type="checkbox" name="sintoma" value="Frequencia urinaria aumentada"> Frequência urinária aumentada</label><br>
+<label><input type="checkbox" name="sintoma" value="Desorientacao"> Desorientação</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor no ouvido"> Dor no ouvido</label><br>
+<label><input type="checkbox" name="sintoma" value="Fraqueza muscular"> Fraqueza muscular</label><br>
+<label><input type="checkbox" name="sintoma" value="Sensacao de formigamento"> Sensação de formigamento</label><br>
+<label><input type="checkbox" name="sintoma" value="Rigidez no pescoco"> Rigidez no pescoço</label><br>
+<label><input type="checkbox" name="sintoma" value="Inchaco abdominal"> Inchaço abdominal</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento retal"> Sangramento retal</label><br>
+<label><input type="checkbox" name="sintoma" value="Ansiedade intensa"> Ansiedade intensa</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor nos olhos"> Dor nos olhos</label><br>
+<label><input type="checkbox" name="sintoma" value="Visao dupla"> Visão dupla</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor no peito ao respirar"> Dor no peito ao respirar</label><br>
+<label><input type="checkbox" name="sintoma" value="Sintomas neurologicos"> Sintomas neurológicos</label><br>
+<label><input type="checkbox" name="sintoma" value="Nausea persistente"> Náusea persistente</label><br>
+<label><input type="checkbox" name="sintoma" value="Ronco frequente"> Ronco frequente</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor na panturrilha"> Dor na panturrilha</label><br>
+<label><input type="checkbox" name="sintoma" value="Hematomas inexplicados"> Hematomas inexplicados</label><br>
+<label><input type="checkbox" name="sintoma" value="Pele amarelada"> Pele amarelada</label><br>
+<label><input type="checkbox" name="sintoma" value="Suores noturnos"> Suores noturnos</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento nas articulacoes"> Sangramento nas articulações</label><br>
+<label><input type="checkbox" name="sintoma" value="Feridas nos labios ou boca"> Feridas nos lábios ou boca</label><br>
+<label><input type="checkbox" name="sintoma" value="Perda de audicao"> Perda de audição</label><br>
+<label><input type="checkbox" name="sintoma" value="Tremores"> Tremores</label><br>
+<label><input type="checkbox" name="sintoma" value="Queda de cabelo excessiva"> Queda de cabelo excessiva</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento no ouvido"> Sangramento no ouvido</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento nos olhos"> Sangramento nos olhos</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor durante a relacao sexual"> Dor durante a relação sexual</label><br>
+<label><input type="checkbox" name="sintoma" value="Tontura ao levantar"> Tontura ao levantar</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento apos a menopausa"> Sangramento após a menopausa</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor na regiao lombar"> Dor na região lombar</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento nas unhas"> Sangramento nas unhas</label><br>
+<label><input type="checkbox" name="sintoma" value="Alteracoes de humor extremas"> Alterações de humor extremas</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor ao urinar"> Dor ao urinar</label><br>
+<label><input type="checkbox" name="sintoma" value="Alteracoes na voz"> Alterações na voz</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor no flanco"> Dor no flanco</label><br>
+<label><input type="checkbox" name="sintoma" value="Pele palida"> Pele pálida</label><br>
+<label><input type="checkbox" name="sintoma" value="Inchaco nos pes"> Inchaço nos pés</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento nas nalgas"> Sangramento nas nádegas</label><br>
+<label><input type="checkbox" name="sintoma" value="Tremores nas maos"> Tremores nas mãos</label><br>
+<label><input type="checkbox" name="sintoma" value="Palidez da pele"> Palidez da pele</label><br>
+<label><input type="checkbox" name="sintoma" value="Dificuldade para engolir alimentos solidos"> Dificuldade para engolir alimentos sólidos</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento no estomago"> Sangramento no estômago</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor nas articulacoes"> Dor nas articulações</label><br>
+<label><input type="checkbox" name="sintoma" value="Sensacao de queimacao na pele"> Sensação de queimação na pele</label><br>
+<label><input type="checkbox" name="sintoma" value="Espasmos musculares"> Espasmos musculares</label><br>
+<label><input type="checkbox" name="sintoma" value="Visao embaçada"> Visão embaçada</label><br>
+<label><input type="checkbox" name="sintoma" value="Secrecao nasal persistente"> Secreção nasal persistente</label><br>
+<label><input type="checkbox" name="sintoma" value="Aftas frequentes"> Aftas frequentes</label><br>
+<label><input type="checkbox" name="sintoma" value="Perda de equilibrio"> Perda de equilíbrio</label><br>
+<label><input type="checkbox" name="sintoma" value="Sensacao de ouvidos tampados"> Sensação de ouvidos tampados</label><br>
+<label><input type="checkbox" name="sintoma" value="Inchaco nas maos"> Inchaço nas mãos</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento nas axilas"> Sangramento nas axilas</label><br>
+<label><input type="checkbox" name="sintoma" value="Hemorragia nas gengivas"> Hemorragia nas gengivas</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor no quadril"> Dor no quadril</label><br>
+<label><input type="checkbox" name="sintoma" value="Perda de memoria"> Perda de memória</label><br>
+<label><input type="checkbox" name="sintoma" value="Tremores nas pernas"> Tremores nas pernas</label><br>
+<label><input type="checkbox" name="sintoma" value="Batimento cardiaco irregular"> Batimento cardíaco irregular</label><br>
+<label><input type="checkbox" name="sintoma" value="Feridas nas costas"> Feridas nas costas</label><br>
+<label><input type="checkbox" name="sintoma" value="Visao de tunel"> Visão de túnel</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor nas costelas"> Dor nas costelas</label><br>
+<label><input type="checkbox" name="sintoma" value="Dificuldade em se concentrar"> Dificuldade em se concentrar</label><br>
+<label><input type="checkbox" name="sintoma" value="Perda de visao periferica"> Perda de visão periférica</label><br>
+<label><input type="checkbox" name="sintoma" value="Hemorragia na pele"> Hemorragia na pele</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor no calcanhar"> Dor no calcanhar</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor na palma da mao"> Dor na palma da mão</label><br>
+<label><input type="checkbox" name="sintoma" value="Pele seca e escamosa"> Pele seca e escamosa</label><br>
+<label><input type="checkbox" name="sintoma" value="Inchaco no rosto"> Inchaço no rosto</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor nas nalgas"> Dor nas nádegas</label><br>
+<label><input type="checkbox" name="sintoma" value="Sensacao de queimacao no estomago"> Sensação de queimação no estômago</label><br>
+<label><input type="checkbox" name="sintoma" value="Sangramento no nariz"> Sangramento no nariz</label><br>
+<label><input type="checkbox" name="sintoma" value="Coceira nos olhos"> Coceira nos olhos</label><br>
+<label><input type="checkbox" name="sintoma" value="Feridas nos dedos dos pes"> Feridas nos dedos dos pés</label><br>
+<label><input type="checkbox" name="sintoma" value="Dor no pescoco"> Dor no pescoço</label><br>
+
+        <!-- Adicione mais sintomas aqui -->
+        
+        <!-- Botão para confirmar a escolha -->
+        <button onclick="EnviarDados()" id="botao_enviar" class="botao_mandar">Enviar</button>
+
+    </form>
+        </div>
+    </div>
+
+</body>
+</html>

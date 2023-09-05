@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: rgb(185, 183, 183);
+}
+
+.conteiner_principal {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(185, 183, 183);
+}
+
+.div_dos_inputs {
+    display: flex;
+    height: 4600px;
+    width: 600px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.indicador_input {
+    color: white;
+    margin-left: 20px;
+}
+
+.input_valores {
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.botao_mandar {
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.botao_enviar_escolha {
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.input_escolha {
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.formulario_escolha_a_dor {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.botao_selecionar {
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.div_superior_barra {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(13, 13, 62);
+    margin-bottom: 20px;
+}
