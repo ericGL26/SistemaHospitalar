@@ -46,7 +46,7 @@ function RenderizarDadosDosPacientesComoH3(data) {
 }
 
 
-//Mostrar no botao o numero do proximo paciente a ser chamado
+//Mostrar no botao o numero do proximo pacient a ser chamado
 var indiceAtual = 0
 var listapacientesparadeletar = [];
 
